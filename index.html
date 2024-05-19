@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src=""></script>
+    <script>
+        module.exports = {
+            theme: {
+                screens: {
+                    'xs': '400px',
+                    'sm': '640px',
+                    // => @media (min-width: 640px) { ... }
+
+                    'md': '768px',
+                    // => @media (min-width: 768px) { ... }
+
+                    'lg': '1024px',
+                    // => @media (min-width: 1024px) { ... }
+
+                    'xl': '1280px',
+                    // => @media (min-width: 1280px) { ... }
+
+                    '2xl': '1536px',
+                    // => @media (min-width: 1536px) { ... }
+                }
+            }
+        }
+    </script>
+</head>
+
+
+<body class="p-0 m-0 box-border ">
+    <header class="h-14 px-5 flex flex-col sm:flex-row sm:justify-between items-center   bg-slate-400  ">
+        <div class="logo font-bold text-xl  ">
+            <span class="text-red-500 ">Hello</span>Website
+        </div>
+        <ul class="flex justify-between  sm:justify-center   gap-10">
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+    </header>
+    <div class="content my-10 w-[80%] sm:w-[70%] mx-auto">
+        <div class="container flex items-center justify-between flex-col sm:flex-row">
+            <div class="paragraph w-[90%] sm:w-[80%]  my-5 sm:my-5">
+                <h1 class="font-bold text-2xl">Heading</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, repellendus nulla veritatis nihil
+                    dicta eveniet expedita eum reprehenderit dolorum doloribus delectus aperiam ea? Eaque, laboriosam.
+                    dicta eveniet expedita eum reprehenderit dolorum doloribus delectus aperiam ea? Eaque, laboriosam.
+                    dicta eveniet expedita eum reprehenderit dolorum doloribus delectus aperiam ea? Eaque, laboriosam.
+                    dicta eveniet expedita eum reprehenderit dolorum doloribus delectus aperiam ea? Eaque, laboriosam.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, aliquid amet! Facere iure maiores,
+                    dolorem, sit officiis similique dolore eos illo eveniet incidunt deserunt. Adipisci?
+                    dolorem, sit officiis similique dolore eos illo eveniet incidunt deserunt. Adipisci?
+
+                </p>
+            </div>
+
+            <img class="rounded-md" src="images/img1.jpg" alt="" width="350px" height="350px">
+
+        </div>
+    </div>
+
+    <div class="services ">
+
+        <h2 class="text-center text-2xl font-bold">Cards</h2>
+        <hr class="mx-auto my-2 w-40 h-[5px] rounded-lg bg-gray-200 border-1">
+
+        <div class="cards flex flex-wrap w-[90%] sm:w-[80%] gap-10 mx-auto justify-center text-center ">
+
+            <div class="card rounded-md   w-[350px]">
+                <div class="image justify-center shadow-xl ">
+                    <img src="images/img1.jpg" alt="">
+                    <h4 class="font-bold text-lg">Card Heading</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellat repudiandae minus
+                        earum a,
+                        eos dolorem libero nisi molestias similique.</p>
+                </div>
+            </div>
+            <div class="card rounded-md   w-[350px]">
+                <div class="image justify-center shadow-xl ">
+                    <img src="images/img1.jpg" alt="">
+                    <h4 class="font-bold text-lg">Card Heading</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellat repudiandae minus
+                        earum a,
+                        eos dolorem libero nisi molestias similique.</p>
+                </div>
+            </div>
+            <div class="card rounded-md   w-[350px]">
+                <div class="image justify-center shadow-xl ">
+                    <img src="images/img1.jpg" alt="">
+                    <h4 class="font-bold text-lg">Card Heading</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellat repudiandae minus
+                        earum a,
+                        eos dolorem libero nisi molestias similique.</p>
+                </div>
+            </div>
+            <div class="card rounded-md   w-[350px]">
+                <div class="image justify-center shadow-xl ">
+                    <img src="images/img1.jpg" alt="">
+                    <h4 class="font-bold text-lg">Card Heading</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellat repudiandae minus
+                        earum a,
+                        eos dolorem libero nisi molestias similique.</p>
+                </div>
+            </div>
+            <div class="card rounded-md   w-[350px]">
+                <div class="image justify-center shadow-xl ">
+                    <img src="images/img1.jpg" alt="">
+                    <h4 class="font-bold text-lg">Card Heading</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellat repudiandae minus
+                        earum a,
+                        eos dolorem libero nisi molestias similique.</p>
+                </div>
+            </div>
+            <div class="card rounded-md   w-[350px]">
+                <div class="image justify-center shadow-xl ">
+                    <img src="images/img1.jpg" alt="">
+                    <h4 class="font-bold text-lg">Card Heading</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellat repudiandae minus
+                        earum a,
+                        eos dolorem libero nisi molestias similique.</p>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <footer class="text-center my-5 ">
+        <i class="fa-brands fa-facebook fa-xl mx-2"></i>
+        <i class="fa-brands fa-instagram fa-xl mx-2"></i>
+        <i class="fa-brands fa-whatsapp fa-xl mx-2"></i>
+        <i class="fa-brands fa-twitter fa-xl mx-2"></i>
+        <p class=" text-lg">All Right Reserved@2024</p>
+    </footer>
+</body>
+
+</html>
